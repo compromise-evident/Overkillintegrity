@@ -1,0 +1,13 @@
+Overkillintegrity log
+
+
+
+Version 1.0.0   Slow for large files. Might build bigger version: n-MB segments,
+                which will require  distribution[][]  of type char for saving on
+                space, and limiting number of copies to 256  (currently no lim.)
+                Updated "how to" & moved to bottom.  Used file name loading from
+                my Overkillographic.cpp and discovered  mishandling of file name
+                length.  Fixed it here and there.  See Overkillographic log. The
+                "Byte differences" counter has been tested  by modifying  files,
+                creating files with C++, as well as modifying same Byte indexes.
+                Wednesday, May 3 2023
