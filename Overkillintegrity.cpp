@@ -25,7 +25,8 @@ int main()
 	COPIES MUST BE OF EQUAL SIZE! Size is not tested so copies are undisturbed! */
 	
 	//Gets path to FOLDER from user.
-	cout << "\nDrag & drop FOLDER into terminal or enter path:\n";
+	cout << "\nHave a FOLDER ready with n copies of one file."
+	     << "\nDrag & drop FOLDER into terminal or enter path:\n";
 	char  path_to_file[10000];
 	for(int a = 0; a < 10000; a++) {path_to_file[a] = '\0';} //Fills path_to_file[] with null.
 	cin.getline(path_to_file, 10000);
