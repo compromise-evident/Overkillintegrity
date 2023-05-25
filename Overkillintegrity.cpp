@@ -96,7 +96,7 @@ int main()
 	long long byte_differences_announced       = 0;
 	static long long distribution[250000][256]; //..........Can consume 512MB RAM.
 	for(;;)
-	{	//..........Clears distribution[].
+	{	//..........Clears distribution[][].
 		for(int a = 0; a < 250000; a++)
 		{	for(int b = 0; b < 256; b++) {distribution[a][b] = 0;}
 		}
@@ -123,7 +123,7 @@ int main()
 			
 			path_to_file[path_to_file_write_bookmark] = '\0';
 			
-			//..........Loads distribution[]. 250kB are read from each file, and Byte occurrences are set. Next round is the next unread 250kB from each file.
+			//..........Loads distribution[][]. 250kB are read from each file, and Byte occurrences are set. Next round is the next unread 250kB from each file.
 			int garbage_byte_normal;
 			in_stream.open(path_to_file);
 			for(long long b = 0; b < bytes_to_skip; b++) {in_stream.get(garbage_byte);}
