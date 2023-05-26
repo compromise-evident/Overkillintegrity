@@ -16,5 +16,5 @@ Preserve any file by storing copies, then retrieve it from all (corrupted) copie
 ### Top-occurring Bytes are final. Gets distribution of 250kB segments from each file.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/compromise-evident/Overkillintegrity/main/Other/Sample_46e6ff8d78b7182859963682d214bcec46c0e29fd5d1f3750c042940fa8fa082.png">
+  <img src="https://raw.githubusercontent.com/compromise-evident/Overkillintegrity/main/Other/Sample_084ac14f9c632618c69c3a10680a2fb40d013003168242a216c594c5369cc3be.png">
 </p>
