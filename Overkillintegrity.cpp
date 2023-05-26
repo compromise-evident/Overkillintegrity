@@ -17,12 +17,8 @@ int main()
 {	ifstream in_stream;
 	ofstream out_stream;
 	
-	/*Top-occurring Bytes are final. Gets distribution of 250kB segments per copy.
-	Occurrence is tallied for nth Byte of each copy (if the first Byte of 3 copies
-	is 'a', and if one copy is later partially or completely bit-flipped, then the
-	final Byte extracted is  'a'  because there are at least 2 of them, and only 1
-	other Byte. Occurrence of 2  >  occurrence of 1.) More copes is always better.
-	COPIES MUST BE OF EQUAL SIZE! Size is not tested so copies are undisturbed! */
+	//Top-occurring Bytes are final, else the smallest top-occurring Bytes.
+	//COPIES MUST BE OF EQUAL SIZE! Size is not tested so copies are undisturbed!
 	
 	//Gets path to FOLDER from user.
 	cout << "\nHave a FOLDER ready with n copies of one file."
