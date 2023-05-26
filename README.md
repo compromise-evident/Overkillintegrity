@@ -13,7 +13,7 @@ Preserve any file by storing copies, then retrieve it from all (corrupted) copie
 <br>
 <br>
 
-## Top-occurring Bytes are final, else the smallest Byte
+# Top-occurring Bytes are final, else the smallest Byte
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/compromise-evident/Overkillintegrity/main/Other/What-it-does_ee1fe9b53446b5dd2153b89b66c1f964693929ea1561210254124ee2d43f1d73.png">
